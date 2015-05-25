@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys
 import shutil
 import argparse
@@ -15,9 +16,9 @@ for i in dirs:
     out_dir = args.dest+'/'+src.split('/')[1]
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
-        print "Creating", out_dir
+        print ("Creating", out_dir)
     dest = out_dir +'/'+src.split('/')[-1]
     
-    print "Copying", src, "to", dest
+    print ("Copying", src, "to", dest)
     shutil.copy(src, dest)
 
