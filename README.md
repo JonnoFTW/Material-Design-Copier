@@ -6,7 +6,8 @@ A python script to copy content from a google material design folder into your a
 1. Make sure you have the material design assets folder downloaded from here: https://github.com/google/material-design-icons/releases/download/1.0.1/material-design-icons-1.0.1.zip
 2. Preview the icons here: https://google.github.io/material-design-icons/
 2. Place material-copy.py into the `material-design-icons` folder
-3. Run `python material-copy.py <group> <name> <color> <dest>`
+3. Add executable permission: `chmod +x material-copy.py`
+4. Run `./material-copy.py <group> <name> <color> <dest>`
 
 #Example:
 ```
